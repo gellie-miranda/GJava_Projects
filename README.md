@@ -1,15 +1,7 @@
 <div align="center">
-  <img src="./HelloWorld.exe_Retro Pixel Desktop.png "
+  <img src="./banner.png "
        alt="HelloWorld, I'm Gellie!"
        width="100%">
-</div>
-
-### HelloWorld, I am Gellie!⭐
-
-*IT student · aspiring developer · curious creator*
-
-Learning to code, building ideas, and finding beauty in the process.
-
 </div>
 
 ---
