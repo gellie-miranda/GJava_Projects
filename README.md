@@ -9,21 +9,28 @@
 
 ## 🖥️ ABOUT ME
 
-> **Hello, welcome to my little corner of GitHub!**
+### ⭐ Hello, World! I'm Gellie!
+
+> A first-year Information Technology student with a
+> creative mind and a never-ending collection of ideas.
 >
-> I'm Gellie, a first-year Information Technology student
-> from the Philippines with a growing interest in
-> software development and creative problem-solving.
+> I'm passionate about exploring programming, app
+> development, web development, and possibly even
+> game development someday.
 >
-> I enjoy exploring new ideas, experimenting with code,
-> and discovering how technology can turn simple
-> concepts into meaningful projects.
+> Outside of coding, I'm an artist at heart who loves
+> traveling, music, and discovering new food and
+> experiences.
+>
+> 🌎 **My goal is to say "Hello, World!" not just
+> through code, but to the world beyond my screen.**
 
 ### 🌱 Currently Exploring
 
-![Programming](https://img.shields.io/badge/Programming-B9DDF5?style=flat-square&labelColor=FFF0B8&color=B9DDF5)
-![Development](https://img.shields.io/badge/Software_Development-B9DDF5?style=flat-square&labelColor=FFF0B8&color=B9DDF5)
-![Creativity](https://img.shields.io/badge/Creative_Projects-FFF0B8?style=flat-square&labelColor=B9DDF5&color=FFF0B8)
+![Programming](https://img.shields.io/badge/Programming-FFF0B8?style=flat-square&labelColor=FFF0B8&color=FFF0B8)
+![App Development](https://img.shields.io/badge/App_Development-B9DDF5?style=flat-square&labelColor=B9DDF5&color=B9DDF5)
+![Creative Projects](https://img.shields.io/badge/Creative_Projects-FFF0B8?style=flat-square&labelColor=FFF0B8&color=FFF0B8)
+
 
 ## 💾 Programming Languages
 
