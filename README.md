@@ -6,79 +6,98 @@
 
 ---
 
-### ABOUT ME ❗
 
-Hello, welcome to my little corner of GitHub!
+## 🖥️ ABOUT ME
 
-I'm a first-year Information Technology student from the Philippines with a growing interest in software development, technology, and creative problem-solving.
+> **Hello, welcome to my little corner of GitHub!**
+>
+> I'm Gellie, a first-year Information Technology student
+> from the Philippines with a growing interest in
+> software development and creative problem-solving.
+>
+> I enjoy exploring new ideas, experimenting with code,
+> and discovering how technology can turn simple
+> concepts into meaningful projects.
 
-I enjoy exploring new ideas, experimenting with code, and discovering how technology can turn simple concepts into meaningful projects.
+### 🌱 Currently Exploring
 
-This space is a collection of my progress, experiments, and everything I create along the way.
+![Programming](https://img.shields.io/badge/Programming-B9DDF5?style=flat-square&labelColor=FFF0B8&color=B9DDF5)
+![Development](https://img.shields.io/badge/Software_Development-B9DDF5?style=flat-square&labelColor=FFF0B8&color=B9DDF5)
+![Creativity](https://img.shields.io/badge/Creative_Projects-FFF0B8?style=flat-square&labelColor=B9DDF5&color=FFF0B8)
 
-- Currently exploring **programming and software development**
-- Interested in **technology, design, and creative projects**
-- Working on **personal coding experiments**
-- Always looking for opportunities to **learn and improve**
+## 💾 Programming Languages
+
+![Java](https://img.shields.io/badge/Java-FFF0B8?style=for-the-badge&logo=openjdk&logoColor=425B72)
+![Python](https://img.shields.io/badge/Python-B9DDF5?style=for-the-badge&logo=python&logoColor=425B72)
+![HTML5](https://img.shields.io/badge/HTML5-FFF0B8?style=for-the-badge&logo=html5&logoColor=425B72)
+
+
+
+## ✏️ School Activities
+
+<details>
+<summary>📁 Midterm Lab Tasks</summary>
 
 <br>
 
-### What I'm Exploring 🌏
+| Activity | Description | Link |
+|---|---|---|
+| Lab Task 01 | Description | [View](YOUR_LINK) |
+| Lab Task 02 | Description | [View](YOUR_LINK) |
+| Lab Task 03 | Description | [View](YOUR_LINK) |
 
+</details>
 
-| Development | Creativity | Learning |
-|:---:|:---:|:---:|
-| Programming | UI/UX Design | New Technologies |
-| Web Development | Digital Projects | Problem Solving |
-| Software Projects | Creative Coding | Personal Growth |
-
-</div>
+<details>
+<summary>🔒 Final Lab Tasks</summary>
 
 <br>
 
-
-### School Activities & Lab Tasks ✏️
-
-### Midterm Activities
-
 | Activity | Description | Link |
 |---|---|---|
-| Lab Task 01 | 2D Arrays -- 3x3 MATRIX | [View](YOUR_LINK) |
-| Lab Task 02 | Add your description | [View](YOUR_LINK) |
+| Final Task 01 | Description | [View](YOUR_LINK) |
+| Final Task 02 | Description | [View](YOUR_LINK) |
 
-### Final Activities
+</details>
 
-| Activity | Description | Link |
+<details>
+<summary>🔒 Personal Projects</summary>
+
+<br>
+
+| Project | Description | Status |
 |---|---|---|
-| Lab Task 01 | Unavailable | See you Next Term! |
+| Project 01 | Personal experiment | In Progress |
+
+</details>
 
 
 ---
 
-### Personal Projects 💻
-
-| Project | Description | Status |
-|---|---|---|
-| Project 01 | Your personal coding project | In progress |
-
-
 <div align="center">
-  
-### Let's Connect! 😸
 
+<h3>💌 Let's Connect!</h3>
 
-I'm always open to learning, sharing ideas, and connecting with other developers.
+<p>Feel free to reach out, share ideas, or just say hello!</p>
 
-[Email](mailto:gellaine.miranda@gmail.com) · [Portfolio](PORTFOLIO_URL)
+<a href="mailto:gellaine.miranda@gmail.com">
+  <img src="https://img.shields.io/badge/Email-FFF0B8?style=for-the-badge&logo=gmail&logoColor=425B72" alt="Email">
+</a>
 
-<br>
+<a href="https://github.com/gellie-miranda">
+  <img src="https://img.shields.io/badge/GitHub-B9DDF5?style=for-the-badge&logo=github&logoColor=425B72" alt="GitHub">
+</a>
 
-*"Every great project begins with a little curiosity."*
+<a href="https://www.facebook.com/gellaine.miranda.5/">
+  <img src="https://img.shields.io/badge/Facebook-FFF0B8?style=for-the-badge&logo=facebook&logoColor=425B72" alt="Facebook">
+</a>
 
-<br>
+<a href="https://www.instagram.com/gellifish___/">
+  <img src="https://img.shields.io/badge/Instagram-B9DDF5?style=for-the-badge&logo=instagram&logoColor=425B72" alt="Instagram">
+</a>
 
 Thank you for stopping by.
-
 ♡ made with curiosity and a little bit of code
-
 </div>
+
+
