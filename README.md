@@ -32,7 +32,7 @@
 ![Creative Projects](https://img.shields.io/badge/Creative_Projects-FFF0B8?style=flat-square&labelColor=FFF0B8&color=FFF0B8)
 
 
-## 💾 Programming Languages
+## 💻 Programming Languages
 
 ![Java](https://img.shields.io/badge/Java-FFF0B8?style=for-the-badge&logo=openjdk&logoColor=425B72)
 ![Python](https://img.shields.io/badge/Python-B9DDF5?style=for-the-badge&logo=python&logoColor=425B72)
