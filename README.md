@@ -59,7 +59,7 @@
 
 | Activity | Description | Link |
 |---|---|---|
-| Lab Task 01 | Description | [View](https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf)) |
+| Lab Task 01 | Description | [View](https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf) |
 | Lab Task 02 | Description | [View](YOUR_LINK) |
 | Lab Task 03 | Description | [View](YOUR_LINK) |
 
