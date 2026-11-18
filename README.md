@@ -25,11 +25,18 @@
 > 🌎 **My goal is to say "Hello, World!" not just
 > through code, but to the world beyond my screen.**
 
+
 ### 🌱 Currently Exploring
 
-![Programming](https://img.shields.io/badge/Programming-FFF0B8?style=flat-square&labelColor=FFF0B8&color=FFF0B8)
-![App Development](https://img.shields.io/badge/App_Development-B9DDF5?style=flat-square&labelColor=B9DDF5&color=B9DDF5)
-![Creative Projects](https://img.shields.io/badge/Creative_Projects-FFF0B8?style=flat-square&labelColor=FFF0B8&color=FFF0B8)
+| 💻 Programming | 📱 App Development |
+|:---|:---|
+| Learning new languages | Exploring how apps are built |
+
+| 🎨 Creative Projects | 🎮 Game Development |
+|:---|:---|
+| Combine art and technology | A future interest |
+
+---
 
 
 ## 💻 Programming Languages
@@ -38,7 +45,10 @@
 ![Python](https://img.shields.io/badge/Python-B9DDF5?style=for-the-badge&logo=python&logoColor=425B72)
 ![HTML5](https://img.shields.io/badge/HTML5-FFF0B8?style=for-the-badge&logo=html5&logoColor=425B72)
 
+<br>
+<sub> More skills loading...</sub>
 
+</div>
 
 ## ✏️ School Activities
 
