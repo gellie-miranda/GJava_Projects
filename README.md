@@ -55,42 +55,41 @@
 <br>
 
 ### 📂 MIDTERMS
-<a href="https://github.com/gellie-miranda/GJava_Projects/tree/f387d65ccdf99e3cbf8cd730ceb14c3ea37b09ff/MIDTERMS">
-  <img src="https://img.shields.io/badge/View%20Folder-FFF0B8?style=for-the-badge" alt="View Folder">
-</a>
+[![View Folder](https://img.shields.io/badge/View%20Folder-FFF0B8?style=for-the-badge)](https://github.com/gellie-miranda/GJava_Projects/tree/f387d65ccdf99e3cbf8cd730ceb14c3ea37b09ff/MIDTERMS)
 
 ### 📝 Lab Task 01
-<a href="https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf">
-  <img src="https://img.shields.io/badge/View%20PDF-B9DDF5?style=for-the-badge" alt="View PDF">
-</a>
+**2D Array**
+
+[![View PDF](https://img.shields.io/badge/View%20PDF-B9DDF5?style=for-the-badge)](https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf)
 
 ### 📝 Lab Task 02
-<a href="https://github.com/gellie-miranda/GJava_Projects/blob/ddaec893159ba6d14568e78e377e21c535734822/MIDTERMS/LabTask2_Miranda.pdf">
-  <img src="https://img.shields.io/badge/View%20PDF-FFF0B8?style=for-the-badge" alt="View PDF">
-</a>
+**3D Array**
+
+[![View PDF](https://img.shields.io/badge/View%20PDF-FFF0B8?style=for-the-badge)](https://github.com/gellie-miranda/GJava_Projects/blob/ddaec893159ba6d14568e78e377e21c535734822/MIDTERMS/LabTask2_Miranda.pdf)
 
 </details>
 
 <details>
 <summary>🔒 Final Lab Tasks</summary>
 
+<br>
+
 ### 📂 FINALS
-<a>
-  <img src="https://img.shields.io/badge/Not%20Available-FFF0B8?style=for-the-badge" alt="Unavailable">
-</a>
+
+![Not Available](https://img.shields.io/badge/Not%20Available-FFF0B8?style=for-the-badge)
 
 </details>
 
 <details>
 <summary>🔒 Personal Projects</summary>
 
+<br>
+
 ### 📂 PERSONAL PROJECTS
-<a>
-  <img src="https://img.shields.io/badge/Not%20Available-FFF0B8?style=for-the-badge" alt="Unavailable">
-</a>
+
+![Not Available](https://img.shields.io/badge/Not%20Available-B9DDF5?style=for-the-badge)
 
 </details>
-
 
 
 ---
