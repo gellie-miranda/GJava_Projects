@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelloWorld.exe | Gellie's Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(
+        135deg,
+        #FFF9E8 0%,
+        #F0F7FF 50%,
+        #FFF2CE 100%
+      );
+      color: #425B72;
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    /* WINDOWS XP BANNER */
+    .banner {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .banner img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 35px auto;
+    }
+
+    .welcome {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .welcome h1 {
+      color: #527DA5;
+      margin-bottom: 5px;
+    }
+
+    .welcome p {
+      color: #71869B;
+    }
+
+    /* PASTEL PANELS */
+    .panel {
+      background: rgba(255, 255, 255, 0.85);
+      border: 2px solid #D7E5F0;
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 25px;
+      box-shadow: 0 5px 18px rgba(66, 91, 114, 0.07);
+    }
+
+    .panel h2 {
+      margin-top: 0;
+      color: #527DA5;
+    }
+
+    .quote {
+      background: #FFF2CE;
+      border-left: 5px solid #E8CC79;
+      border-radius: 10px;
+      padding: 15px 20px;
+      font-weight: bold;
+    }
+
+    /* EXPLORING CARDS */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      padding: 20px;
+      border-radius: 15px;
+      transition: transform 0.2s ease,
+                  box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(66, 91, 114, 0.12);
+    }
+
+    .yellow {
+      background: #FFF0B8;
+    }
+
+    .blue {
+      background: #E7F2FF;
+    }
+
+    .card h3 {
+      margin: 0 0 5px;
+      color: #425B72;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    /* LANGUAGE BADGES */
+    .languages {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .languages img {
+      height: 35px;
+    }
+
+    /* FOLDERS */
+    details {
+      background: #F2F8FF;
+      border: 1px solid #D3E5F5;
+      border-radius: 12px;
+      padding: 15px 20px;
+      margin-bottom: 12px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #527DA5;
+    }
+
+    details a {
+      color: #527DA5;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #DCE8F3;
+    }
+
+    th {
+      background: #FFF2CE;
+    }
+
+    /* SOCIAL LINKS */
+    .socials {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .socials img {
+      height: 35px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #71869B;
+    }
+
+    .progress {
+      width: 220px;
+      height: 12px;
+      margin: 15px auto;
+      background: #DCE8F3;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      width: 65%;
+      height: 100%;
+      background: #B9DDF5;
+    }
+
+    @media (max-width: 600px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .panel {
+        padding: 18px;
+      }
+
+      .container {
+        width: 94%;
+      }
+
+      th, td {
+        padding: 8px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ORIGINAL WINDOWS XP BANNER -->
+  <header class="banner">
+    <img src="banner.png"
+         alt="HelloWorld, I'm Gellie!">
+  </header>
+
+  <main class="container">
+
+    <!-- WELCOME -->
+    <section class="welcome">
+      <h1>🌷 Hello, World! I'm Gellie!</h1>
+      <p>
+        IT Student · Aspiring Developer · Artist at Heart
+      </p>
+      <small>
+        ✦ Learning, creating, and exploring beyond the screen ✦
+      </small>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="panel">
+      <h2>🖥️ About Me</h2>
+
+      <p>
+        A first-year Information Technology student
+        with a creative mind and a never-ending
+        collection of ideas.
+      </p>
+
+      <p>
+        I'm passionate about exploring programming,
+        app development, web development, and
+        possibly even game development someday.
+      </p>
+
+      <p>
+        Outside of coding, I'm an artist at heart
+        who loves traveling, music, and discovering
+        new food and experiences.
+      </p>
+
+      <div class="quote">
+        🌎 My goal is to say "Hello, World!"
+        not just through code, but to the world
+        beyond my screen.
+      </div>
+    </section>
+
+    <!-- CURRENTLY EXPLORING -->
+    <section class="panel">
+      <h2>🌱 Currently Exploring</h2>
+
+      <div class="cards">
+
+        <div class="card yellow">
+          <h3>💻 Programming</h3>
+          <p>Learning new languages</p>
+        </div>
+
+        <div class="card blue">
+          <h3>📱 App Development</h3>
+          <p>Exploring how apps are built</p>
+        </div>
+
+        <div class="card blue">
+          <h3>🎨 Creative Projects</h3>
+          <p>Combining art and technology</p>
+        </div>
+
+        <div class="card yellow">
+          <h3>🎮 Game Development</h3>
+          <p>A future interest</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROGRAMMING LANGUAGES -->
+    <section class="panel">
+      <h2>💻 Programming Languages</h2>
+
+      <div class="languages">
+
+        <img src="https://img.shields.io/badge/Java-FFF0B8?style=for-the-badge&logo=openjdk&logoColor=425B72"
+             alt="Java">
+
+        <img src="https://img.shields.io/badge/Python-B9DDF5?style=for-the-badge&logo=python&logoColor=425B72"
+             alt="Python">
+
+        <img src="https://img.shields.io/badge/HTML5-FFF0B8?style=for-the-badge&logo=html5&logoColor=425B72"
+             alt="HTML5">
+
+      </div>
+    </section>
+
+    <!-- SCHOOL ACTIVITIES -->
+    <section class="panel">
+      <h2>📂 School Activities</h2>
+
+      <details>
+        <summary>📁 Midterm Lab Tasks</summary>
+
+        <table>
+          <tr>
+            <th>Activity</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+
+          <tr>
+            <td>Lab Task 01</td>
+            <td>Description</td>
+            <td><a href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask1_Miranda.pdf">View</a></td>
+          </tr>
+
+          <tr>
+            <td>Lab Task 02</td>
+            <td>Description</td>
+            <td><a href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask2_Miranda.pdf">View</a></td>
+          </tr>
+
+          <tr>
+            <td>Lab Task 03</td>
+            <td>Description</td>
+            <td><a href="#">Unavailable</a></td>
+          </tr>
+        </table>
+      </details>
+
+      <details>
+        <summary>📁 Final Lab Tasks</summary>
+
+        <table>
+          <tr>
+            <th>Activity</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+
+          <tr>
+            <td>Final Task 01</td>
+            <td>Description</td>
+            <td><a href="#">Unavailable</a></td>
+          </tr>
+
+          <tr>
+            <td>Final Task 02</td>
+            <td>Description</td>
+            <td><a href="#">View</a></td>
+          </tr>
+        </table>
+      </details>
+
+      <details>
+        <summary>📁 Personal Projects</summary>
+
+        <p>
+          My future creative and programming
+          projects will appear here!
+        </p>
+      </details>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="panel" style="text-align:center;">
+      <h2>💌 Let's Connect!</h2>
+
+      <p>
+        Feel free to reach out, share ideas,
+        or just say hello!
+      </p>
+
+      <div class="socials">
+
+        <a href="mailto:gellaine.miranda@gmail.com">
+          <img src="https://img.shields.io/badge/Email-FFF0B8?style=for-the-badge&logo=gmail&logoColor=425B72"
+               alt="Email">
+        </a>
+
+        <a href="https://github.com/gellie-miranda">
+          <img src="https://img.shields.io/badge/GitHub-B9DDF5?style=for-the-badge&logo=github&logoColor=425B72"
+               alt="GitHub">
+        </a>
+
+        <a href="https://www.facebook.com/gellaine.miranda.5/">
+          <img src="https://img.shields.io/badge/Facebook-FFF0B8?style=for-the-badge&logo=facebook&logoColor=425B72"
+               alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/gellifish___/">
+          <img src="https://img.shields.io/badge/Instagram-B9DDF5?style=for-the-badge&logo=instagram&logoColor=425B72"
+               alt="Instagram">
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <h3>🖥️ gellie.exe is still running...</h3>
+
+    <p>Loading new skills and experiences...</p>
+
+    <div class="progress">
+      <div class="progress-fill"></div>
+    </div>
+
+    <small>
+      ♡ Made with curiosity and a little bit of code.
+    </small>
+  </footer>
+
+</body>
+</html>
