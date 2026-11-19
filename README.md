@@ -46,9 +46,6 @@
 ![HTML5](https://img.shields.io/badge/HTML5-FFF0B8?style=for-the-badge&logo=html5&logoColor=425B72)
 
 <br>
-<sub> More skills loading...</sub>
-
-</div>
 
 ## ✏️ Activities and Projects
 
@@ -59,9 +56,9 @@
 
 | Activity | Description | Link |
 |---|---|---|
-| MIDTERMS    | Folder   |  [View](https://github.com/gellie-miranda/GJava_Projects/tree/aca44521a89cbc84589783a4321a847cf85c075a/MIDTERMS) |
-| Lab Task 01 | 2D Array, 3x3 Matrix | [View](https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf) |
-| Lab Task 02 | 3d Array | [View](https://github.com/gellie-miranda/GJava_Projects/blob/ddaec893159ba6d14568e78e377e21c535734822/MIDTERMS/LabTask2_Miranda.pdf) |
+| MIDTERMS    | Folder   |  <a href="https://github.com/gellie-miranda/GJava_Projects/tree/f387d65ccdf99e3cbf8cd730ceb14c3ea37b09ff/MIDTERMS">  <img src="https://img.shields.io/badge/View-FFF0B8?style=for-the-badge&color=FFF0B8&labelColor=FFF0B8" alt="View"> </a> |
+| Lab Task 01 | 2D Array, 3x3 Matrix | <a href ="https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf">  <img src="https://img.shields.io/badge/View-FFF0B8?style=for-the-badge&color=FFF0B8&labelColor=FFF0B8" alt="View"> </a> |
+| Lab Task 02 | 3d Array | <a href ="https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf">  <img src="https://img.shields.io/badge/View-FFF0B8?style=for-the-badge&color=FFF0B8&labelColor=FFF0B8" alt="View"> </a> |
 
 
 </details>
@@ -113,6 +110,8 @@
   <img src="https://img.shields.io/badge/Instagram-B9DDF5?style=for-the-badge&logo=instagram&logoColor=425B72" alt="Instagram">
 </a>
 
+<div align="center">
+<br>
 Thank you for stopping by.
 ♡ made with curiosity and a little bit of code
 </div>
