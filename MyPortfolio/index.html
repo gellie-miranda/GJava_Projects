@@ -1,30 +1,17 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HelloWorld.exe | Gellie's Portfolio</title>
 
   <!-- PIXEL FONTS -->
-  <link rel="preconnect"
-        href="https://fonts.googleapis.com">
-
-  <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=VT323&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet">
 
   <style>
-
-    /* GENERAL SETTINGS */
-
     * {
       box-sizing: border-box;
     }
@@ -42,42 +29,10 @@
         #FFF2CE 100%
       );
       color: #425B72;
-      font-family: "Pixelify Sans",
-                   "Trebuchet MS",
-                   sans-serif;
+      font-family: "Pixelify Sans", "Trebuchet MS", sans-serif;
       font-size: 17px;
       line-height: 1.7;
     }
-
-    
-/* ABOUT ME WINDOW */
-
-.about-me {
-  background: rgba(255, 255, 255, 0.92);
-  border: 2px solid #B9DDF5;
-  border-radius: 18px;
-  padding: 30px 35px;
-  margin-bottom: 25px;
-
-  box-shadow: 4px 4px 0 #D8E7F3;
-}
-
-.about-me h2 {
-  margin-top: 0;
-  color: #527DA5;
-  font-family: "Pixelify Sans", sans-serif;
-  font-size: 28px;
-}
-
-.about-me p {
-  margin-bottom: 18px;
-  line-height: 1.8;
-}
-
-.about-me .quote {
-  margin-top: 20px;
-}
-
 
     /* WINDOWS XP BANNER */
 
@@ -102,74 +57,85 @@
       margin: 35px auto;
     }
 
-    /* WELCOME SECTION */
-
-    .welcome {
-      text-align: center;
-      margin-bottom: 35px;
-    }
-
-    .welcome h1 {
-      font-size: clamp(28px, 5vw, 45px);
-      letter-spacing: 1px;
-      color: #355F9A;
-      margin-bottom: 5px;
-    }
-
-    .welcome p {
-      color: #71869B;
-      font-size: 19px;
-    }
-
-    .welcome small {
-      color: #527DA5;
-      font-size: 15px;
-    }
-
+    
+    
     /* PASTEL PANELS */
 
     .panel {
-      background: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.92);
       border: 2px solid #B9DDF5;
       border-radius: 18px;
       padding: 28px;
       margin-bottom: 25px;
-
-      box-shadow:
-        4px 4px 0 #D8E7F3;
+      box-shadow: 4px 4px 0 #D8E7F3;
     }
 
     .panel h2 {
       margin-top: 0;
+      color: #527DA5;
       font-size: 28px;
       letter-spacing: 1px;
-      color: #527DA5;
     }
 
     .panel p {
-      font-family: "Trebuchet MS",
-                   Arial,
-                   sans-serif;
+      font-family: "Trebuchet MS", Arial, sans-serif;
       font-size: 15px;
     }
 
-    /* QUOTE BOX */
+    /* ABOUT ME */
+
+    .about-me {
+      background: rgba(255, 255, 255, 0.92);
+      border: 2px solid #B9DDF5;
+      border-radius: 18px;
+      padding: 30px 35px;
+      margin-bottom: 25px;
+      box-shadow: 4px 4px 0 #D8E7F3;
+    }
+
+    .about-me p {
+      margin-bottom: 18px;
+      line-height: 1.8;
+    }
 
     .quote {
       background: #FFF2CE;
       border-left: 5px solid #E8CC79;
       border-radius: 10px;
       padding: 15px 20px;
-
-      font-family: "Trebuchet MS",
-                   Arial,
-                   sans-serif;
-
+      margin-top: 20px;
+      font-family: "Trebuchet MS", Arial, sans-serif;
       font-size: 15px;
       font-weight: bold;
     }
 
-    /* EXPLORING CARDS */
+    /* NEW: TWINKLING PIXEL STARS */
+
+    .sparkle {
+      display: inline-block;
+      color: #E8C65D;
+      font-family: "Pixelify Sans", sans-serif;
+      animation: pixelTwinkle 2s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .sparkle:nth-of-type(2) {
+      animation-delay: 0.7s;
+    }
+
+    @keyframes pixelTwinkle {
+      0%, 100% {
+        opacity: 0.35;
+        transform: scale(0.8) rotate(0deg);
+      }
+
+      50% {
+        opacity: 1;
+        transform: scale(1.25) rotate(12deg);
+      }
+    }
+
+    /* CURRENTLY EXPLORING */
 
     .cards {
       display: grid;
@@ -180,21 +146,14 @@
     .card {
       padding: 20px;
       border-radius: 15px;
-
-      border: 2px solid
-        rgba(66, 91, 114, 0.12);
-
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
+      border: 2px solid rgba(66, 91, 114, 0.12);
+      transition: transform 0.2s ease,
+                  box-shadow 0.2s ease;
     }
 
     .card:hover {
       transform: translateY(-5px);
-
-      box-shadow:
-        0 8px 16px
-        rgba(66, 91, 114, 0.12);
+      box-shadow: 0 8px 16px rgba(66, 91, 114, 0.12);
     }
 
     .yellow {
@@ -234,15 +193,23 @@
       transform: scale(1.08);
     }
 
-    /* EXPANDABLE FOLDERS */
+    /* NEW: ANIMATED FOLDERS */
 
     details {
       background: #F2F8FF;
       border: 1px solid #D3E5F5;
       border-radius: 12px;
-
       padding: 15px 20px;
       margin-bottom: 12px;
+      transition: background 0.3s ease,
+                  border-color 0.3s ease,
+                  box-shadow 0.3s ease;
+    }
+
+    details[open] {
+      background: #FFFFFF;
+      border-color: #A9CDEB;
+      box-shadow: 3px 3px 0 #E7F2FF;
     }
 
     summary {
@@ -250,10 +217,66 @@
       font-size: 19px;
       font-weight: bold;
       color: #527DA5;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      user-select: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
     }
 
     summary:hover {
       color: #2455A0;
+    }
+
+    summary:focus-visible {
+      outline: 2px solid #3978D7;
+      outline-offset: 5px;
+      border-radius: 4px;
+    }
+
+    .folder-icon {
+      display: inline-block;
+      font-size: 23px;
+      transition: transform 0.25s ease;
+    }
+
+    details[open] .folder-icon {
+      transform: rotate(-8deg) scale(1.1);
+    }
+
+    .folder-arrow {
+      margin-left: auto;
+      transition: transform 0.3s ease;
+    }
+
+    details[open] .folder-arrow {
+      transform: rotate(180deg);
+    }
+
+    /* Folder contents reveal smoothly */
+
+    .folder-content {
+      padding-top: 5px;
+    }
+
+    details[open] .folder-content {
+      animation: folderReveal 0.35s ease-out both;
+    }
+
+    @keyframes folderReveal {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     details a {
@@ -276,10 +299,7 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 15px;
-
-      font-family: "Trebuchet MS",
-                   Arial,
-                   sans-serif;
+      font-family: "Trebuchet MS", Arial, sans-serif;
       font-size: 14px;
     }
 
@@ -350,53 +370,42 @@
       width: 220px;
       height: 14px;
       margin: 15px auto;
-
       background: #DCE8F3;
       border: 2px solid #A8C5DE;
       border-radius: 20px;
       overflow: hidden;
     }
 
-  
-.progress-fill {
-  width: 0%;
-  height: 100%;
-  background: #B9DDF5;
-  animation: loading 4s ease-in-out infinite;
-}
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: #B9DDF5;
+      animation: loading 4s ease-in-out infinite;
+    }
 
-@keyframes loading {
-  0% {
-    width: 0%;
-  }
+    @keyframes loading {
+      0% {
+        width: 0%;
+      }
 
-  70% {
-    width: 90%;
-  }
+      70% {
+        width: 90%;
+      }
 
-  100% {
-    width: 0%;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .progress-fill {
-    animation: none;
-    width: 65%;
-  }
-}
-
-
+      100% {
+        width: 0%;
+      }
+    }
 
     /* MOBILE RESPONSIVENESS */
 
     @media (max-width: 600px) {
-
       .cards {
         grid-template-columns: 1fr;
       }
 
-      .panel {
+      .panel,
+      .about-me {
         padding: 18px;
       }
 
@@ -409,14 +418,26 @@
         font-size: 12px;
       }
 
-      .welcome p {
-        font-size: 16px;
-      }
-
       .panel h2 {
         font-size: 24px;
       }
+    }
 
+    /* ACCESSIBILITY */
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+
+      .progress-fill {
+        width: 65%;
+      }
     }
 
   </style>
@@ -427,16 +448,21 @@
   <!-- WINDOWS XP BANNER -->
 
   <header class="banner">
-
-    <img
-      src="./banner.png"
-      alt="HelloWorld, I'm Gellie!">
-
+    <img src="./banner.png"
+         alt="HelloWorld, I'm Gellie!">
   </header>
+
+  <main class="container">
+
+    <!-- ABOUT ME -->
 
     <section class="panel about-me">
 
-      <h2>ABOUT ME</h2>
+      <h2>
+        <span class="sparkle" aria-hidden="true">✦</span>
+        ABOUT ME
+        
+      </h2>
 
       <p>
         A first-year Information Technology student
@@ -468,7 +494,11 @@
 
     <section class="panel">
 
-      <h2>Currently Exploring!</h2>
+      <h2>
+        <span class="sparkle" aria-hidden="true">✦</span>
+        Currently Exploring!
+       
+      </h2>
 
       <div class="cards">
 
@@ -493,14 +523,17 @@
         </div>
 
       </div>
-
     </section>
 
     <!-- PROGRAMMING LANGUAGES -->
 
     <section class="panel">
 
-      <h2>💻 Programming Languages</h2>
+      <h2>
+        
+        💻 Programming Languages
+       
+      </h2>
 
       <div class="languages">
 
@@ -517,125 +550,137 @@
           alt="HTML5">
 
       </div>
-
     </section>
 
-    <!-- SCHOOL ACTIVITIES -->
+    <!-- ACTIVITIES AND PROJECTS -->
 
     <section class="panel">
 
-      <h2>Activities and Projects</h2>
+      <h2>
+        
+        Activities and Projects
+       
+      </h2>
 
-      <!-- MIDTERMS -->
+      <!-- MIDTERM FOLDER -->
 
-      <details>
+      <details class="folder">
 
-        <summary>📁 Midterm Lab Tasks</summary>
+        <summary>
+          <span class="folder-icon" aria-hidden="true">📁</span>
+          Midterm Lab Tasks
+          <span class="folder-arrow" aria-hidden="true">⌄</span>
+        </summary>
 
-        <div class="table-wrap">
+        <div class="folder-content">
+          <div class="table-wrap">
 
-          <table>
+            <table>
+              <tr>
+                <th>Activity</th>
+                <th>Description</th>
+                <th>Link</th>
+              </tr>
 
-            <tr>
-              <th>Activity</th>
-              <th>Description</th>
-              <th>Link</th>
-            </tr>
+              <tr>
+                <td>Lab Task 01</td>
+                <td>2D Array</td>
+                <td>
+                  <a href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask1_Miranda.pdf"
+                     target="_blank"
+                     rel="noopener noreferrer">
+                    View
+                  </a>
+                </td>
+              </tr>
 
-            <tr>
-              <td>Lab Task 01</td>
-              <td>2D Array</td>
-              <td>
-                <a
-                  href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask1_Miranda.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  View
-                </a>
-              </td>
-            </tr>
+              <tr>
+                <td>Lab Task 02</td>
+                <td>3D Array</td>
+                <td>
+                  <a href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask2_Miranda.pdf"
+                     target="_blank"
+                     rel="noopener noreferrer">
+                    View
+                  </a>
+                </td>
+              </tr>
 
-            <tr>
-              <td>Lab Task 02</td>
-              <td>3D Array</td>
-              <td>
-                <a
-                  href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask2_Miranda.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  View
-                </a>
-              </td>
-            </tr>
+              <tr>
+                <td>Lab Task 03</td>
+                <td>None</td>
+                <td>
+                  <span class="unavailable">Unavailable</span>
+                </td>
+              </tr>
+            </table>
 
-            <tr>
-              <td>Lab Task 03</td>
-              <td>None</td>
-              <td>
-                <span class="unavailable">
-                  Unavailable
-                </span>
-              </td>
-            </tr>
+          </div>
+        </div>
+      </details>
 
-          </table>
+      <!-- FINALS FOLDER -->
 
+      <details class="folder">
+
+        <summary>
+          <span class="folder-icon" aria-hidden="true">📁</span>
+          Final Lab Tasks
+          <span class="folder-arrow" aria-hidden="true">⌄</span>
+        </summary>
+
+        <div class="folder-content">
+          <div class="table-wrap">
+
+            <table>
+              <tr>
+                <th>Activity</th>
+                <th>Description</th>
+                <th>Link</th>
+              </tr>
+
+              <tr>
+                <td>Final Task 01</td>
+                <td>Description</td>
+                <td>
+                  <span class="unavailable">Unavailable</span>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+      </details>
+
+      <!-- PERSONAL PROJECTS FOLDER -->
+
+      <details class="folder">
+
+        <summary>
+          <span class="folder-icon" aria-hidden="true">📁</span>
+          Personal Projects
+          <span class="folder-arrow" aria-hidden="true">⌄</span>
+        </summary>
+
+        <div class="folder-content">
+          <p>
+            My future creative and programming
+            projects will appear here!
+          </p>
         </div>
 
       </details>
-
-      <!-- FINALS -->
-
-      <details>
-
-        <summary>📁 Final Lab Tasks</summary>
-
-        <div class="table-wrap">
-
-          <table>
-
-            <tr>
-              <th>Activity</th>
-              <th>Description</th>
-              <th>Link</th>
-            </tr>
-
-            <tr>
-              <td>Final Task 01</td>
-              <td>Description</td>
-              <td>
-                <span class="unavailable">
-                  Unavailable
-                </span>
-              </td>
-            </tr>
-
-          </table>
-
-        </div>
-
-      </details>
-
-      <!-- PERSONAL PROJECTS -->
-
-      <details>
-
-        <summary>📁 Personal Projects</summary>
-
-        <p>
-          My future creative and programming
-          projects will appear here!
-        </p>
-
-      </details>
-
     </section>
 
     <!-- LET'S CONNECT -->
 
     <section class="panel connect">
 
-      <h2>💌 Let's Connect!</h2>
+      <h2>
+        <span class="sparkle" aria-hidden="true">✦</span>
+        💌 Let's Connect!
+        <span class="sparkle" aria-hidden="true">✦</span>
+      </h2>
 
       <p>
         Feel free to reach out, share ideas,
@@ -675,7 +720,6 @@
         </a>
 
       </div>
-
     </section>
 
   </main>
@@ -697,6 +741,21 @@
     </small>
 
   </footer>
+
+  <!-- NEW: FOLDER ICON ANIMATION -->
+
+  <script>
+    document.querySelectorAll("details.folder").forEach(folder => {
+      const icon = folder.querySelector(".folder-icon");
+
+      function updateFolderIcon() {
+        icon.textContent = folder.open ? "📂" : "📁";
+      }
+
+      folder.addEventListener("toggle", updateFolderIcon);
+      updateFolderIcon();
+    });
+  </script>
 
 </body>
 </html>
