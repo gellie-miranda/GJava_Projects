@@ -7,7 +7,7 @@
 ---
 
 
-## 🖥️ ABOUT ME
+##  ABOUT ME
 
 ### ⭐ Hello, World! I'm Gellie!
 
@@ -26,7 +26,7 @@
 > through code, but to the world beyond my screen.**
 
 
-### 🌱 Currently Exploring
+###  Currently Exploring
 
 | 💻 Programming | 📱 App Development |
 |:---|:---|
@@ -47,7 +47,7 @@
 
 <br>
 
-## ✏️ Activities and Projects
+##  Activities and Projects
 
 <details>
 <summary>📁 Midterm Lab Tasks</summary>
