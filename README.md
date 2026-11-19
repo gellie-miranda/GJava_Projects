@@ -61,7 +61,7 @@
 |---|---|---|
 | MIDTERMS    | Folder   |  [View](https://github.com/gellie-miranda/GJava_Projects/tree/aca44521a89cbc84589783a4321a847cf85c075a/MIDTERMS) |
 | Lab Task 01 | 2D Array, 3x3 Matrix | [View](https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf) |
-| Lab Task 02 | 3d Array | [View] |
+| Lab Task 02 | 3d Array | [View](https://github.com/gellie-miranda/GJava_Projects/blob/ddaec893159ba6d14568e78e377e21c535734822/MIDTERMS/LabTask2_Miranda.pdf) |
 
 
 </details>
