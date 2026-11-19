@@ -335,25 +335,10 @@
   animation: loading 4s ease-in-out infinite;
 }
 
-@keyframes loading {
-  0% {
-    width: 0%;
-  }
-
-  70% {
-    width: 90%;
-  }
-
-  100% {
-    width: 0%;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .progress-fill {
-    animation: none;
-    width: 65%;
-  }
+.progress-fill {
+  width: 65%;
+  height: 100%;
+  background: #B9DDF5;
 }
 
 
