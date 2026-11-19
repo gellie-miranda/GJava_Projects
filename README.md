@@ -50,7 +50,7 @@
 
 </div>
 
-## ✏️ School Activities
+## ✏️ Activities and Projects
 
 <details>
 <summary>📁 Midterm Lab Tasks</summary>
