@@ -1,12 +1,30 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
   <title>HelloWorld.exe | Gellie's Portfolio</title>
 
+  <!-- PIXEL FONTS -->
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=VT323&display=swap"
+    rel="stylesheet">
+
   <style>
+
+    /* GENERAL SETTINGS */
+
     * {
       box-sizing: border-box;
     }
@@ -24,14 +42,20 @@
         #FFF2CE 100%
       );
       color: #425B72;
-      font-family: "Trebuchet MS", Arial, sans-serif;
+      font-family: "Pixelify Sans",
+                   "Trebuchet MS",
+                   sans-serif;
+      font-size: 17px;
       line-height: 1.7;
     }
 
     /* WINDOWS XP BANNER */
+
     .banner {
       width: 100%;
       overflow: hidden;
+      background: #B9DDF5;
+      border-bottom: 5px solid #3978D7;
     }
 
     .banner img {
@@ -41,11 +65,14 @@
     }
 
     /* MAIN CONTENT */
+
     .container {
       width: 90%;
       max-width: 1000px;
       margin: 35px auto;
     }
+
+    /* WELCOME SECTION */
 
     .welcome {
       text-align: center;
@@ -53,38 +80,67 @@
     }
 
     .welcome h1 {
-      color: #527DA5;
+      font-size: clamp(28px, 5vw, 45px);
+      letter-spacing: 1px;
+      color: #355F9A;
       margin-bottom: 5px;
     }
 
     .welcome p {
       color: #71869B;
+      font-size: 19px;
+    }
+
+    .welcome small {
+      color: #527DA5;
+      font-size: 15px;
     }
 
     /* PASTEL PANELS */
+
     .panel {
-      background: rgba(255, 255, 255, 0.85);
-      border: 2px solid #D7E5F0;
+      background: rgba(255, 255, 255, 0.88);
+      border: 2px solid #B9DDF5;
       border-radius: 18px;
       padding: 28px;
       margin-bottom: 25px;
-      box-shadow: 0 5px 18px rgba(66, 91, 114, 0.07);
+
+      box-shadow:
+        4px 4px 0 #D8E7F3;
     }
 
     .panel h2 {
       margin-top: 0;
+      font-size: 28px;
+      letter-spacing: 1px;
       color: #527DA5;
     }
+
+    .panel p {
+      font-family: "Trebuchet MS",
+                   Arial,
+                   sans-serif;
+      font-size: 15px;
+    }
+
+    /* QUOTE BOX */
 
     .quote {
       background: #FFF2CE;
       border-left: 5px solid #E8CC79;
       border-radius: 10px;
       padding: 15px 20px;
+
+      font-family: "Trebuchet MS",
+                   Arial,
+                   sans-serif;
+
+      font-size: 15px;
       font-weight: bold;
     }
 
     /* EXPLORING CARDS */
+
     .cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -94,13 +150,21 @@
     .card {
       padding: 20px;
       border-radius: 15px;
-      transition: transform 0.2s ease,
-                  box-shadow 0.2s ease;
+
+      border: 2px solid
+        rgba(66, 91, 114, 0.12);
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
     }
 
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(66, 91, 114, 0.12);
+
+      box-shadow:
+        0 8px 16px
+        rgba(66, 91, 114, 0.12);
     }
 
     .yellow {
@@ -114,6 +178,7 @@
     .card h3 {
       margin: 0 0 5px;
       color: #425B72;
+      font-size: 22px;
     }
 
     .card p {
@@ -121,7 +186,8 @@
       font-size: 14px;
     }
 
-    /* LANGUAGE BADGES */
+    /* PROGRAMMING LANGUAGES */
+
     .languages {
       display: flex;
       flex-wrap: wrap;
@@ -131,31 +197,60 @@
 
     .languages img {
       height: 35px;
+      transition: transform 0.2s ease;
     }
 
-    /* FOLDERS */
+    .languages img:hover {
+      transform: scale(1.08);
+    }
+
+    /* EXPANDABLE FOLDERS */
+
     details {
       background: #F2F8FF;
       border: 1px solid #D3E5F5;
       border-radius: 12px;
+
       padding: 15px 20px;
       margin-bottom: 12px;
     }
 
     summary {
       cursor: pointer;
+      font-size: 19px;
       font-weight: bold;
       color: #527DA5;
     }
 
+    summary:hover {
+      color: #2455A0;
+    }
+
     details a {
       color: #527DA5;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    details a:hover {
+      text-decoration: underline;
+    }
+
+    /* SCHOOL TABLES */
+
+    .table-wrap {
+      overflow-x: auto;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 15px;
+
+      font-family: "Trebuchet MS",
+                   Arial,
+                   sans-serif;
+      font-size: 14px;
     }
 
     th, td {
@@ -166,9 +261,20 @@
 
     th {
       background: #FFF2CE;
+      color: #425B72;
+    }
+
+    .unavailable {
+      color: #8798A7;
+      font-style: italic;
     }
 
     /* SOCIAL LINKS */
+
+    .connect {
+      text-align: center;
+    }
+
     .socials {
       display: flex;
       justify-content: center;
@@ -178,7 +284,14 @@
 
     .socials img {
       height: 35px;
+      transition: transform 0.2s ease;
     }
+
+    .socials img:hover {
+      transform: translateY(-4px);
+    }
+
+    /* FOOTER */
 
     footer {
       text-align: center;
@@ -186,11 +299,30 @@
       color: #71869B;
     }
 
+    footer h3 {
+      font-family: "VT323", monospace;
+      font-size: 34px;
+      color: #527DA5;
+      margin-bottom: 5px;
+    }
+
+    footer p {
+      font-family: "Pixelify Sans", sans-serif;
+      font-size: 17px;
+    }
+
+    footer small {
+      font-family: "VT323", monospace;
+      font-size: 23px;
+    }
+
     .progress {
       width: 220px;
-      height: 12px;
+      height: 14px;
       margin: 15px auto;
+
       background: #DCE8F3;
+      border: 2px solid #A8C5DE;
       border-radius: 20px;
       overflow: hidden;
     }
@@ -201,7 +333,10 @@
       background: #B9DDF5;
     }
 
+    /* MOBILE RESPONSIVENESS */
+
     @media (max-width: 600px) {
+
       .cards {
         grid-template-columns: 1fr;
       }
@@ -218,34 +353,55 @@
         padding: 8px;
         font-size: 12px;
       }
+
+      .welcome p {
+        font-size: 16px;
+      }
+
+      .panel h2 {
+        font-size: 24px;
+      }
+
     }
+
   </style>
 </head>
 
 <body>
 
-  <!-- ORIGINAL WINDOWS XP BANNER -->
+  <!-- WINDOWS XP BANNER -->
+
   <header class="banner">
-    <img src="banner.png"
-         alt="HelloWorld, I'm Gellie!">
+
+    <img
+      src="./banner.png"
+      alt="HelloWorld, I'm Gellie!">
+
   </header>
 
   <main class="container">
 
     <!-- WELCOME -->
+
     <section class="welcome">
-      <h1>🌷 Hello, World! I'm Gellie!</h1>
+
+      <h1>Hello, World! I'm Gellie!</h1>
+
       <p>
         IT Student · Aspiring Developer · Artist at Heart
       </p>
+
       <small>
         ✦ Learning, creating, and exploring beyond the screen ✦
       </small>
+
     </section>
 
     <!-- ABOUT ME -->
+
     <section class="panel">
-      <h2>🖥️ About Me</h2>
+
+      <h2>ABOUT ME</h2>
 
       <p>
         A first-year Information Technology student
@@ -270,11 +426,14 @@
         not just through code, but to the world
         beyond my screen.
       </div>
+
     </section>
 
     <!-- CURRENTLY EXPLORING -->
+
     <section class="panel">
-      <h2>🌱 Currently Exploring</h2>
+
+      <h2>Currently Exploring!</h2>
 
       <div class="cards">
 
@@ -299,96 +458,148 @@
         </div>
 
       </div>
+
     </section>
 
     <!-- PROGRAMMING LANGUAGES -->
+
     <section class="panel">
+
       <h2>💻 Programming Languages</h2>
 
       <div class="languages">
 
-        <img src="https://img.shields.io/badge/Java-FFF0B8?style=for-the-badge&logo=openjdk&logoColor=425B72"
-             alt="Java">
+        <img
+          src="https://img.shields.io/badge/Java-FFF0B8?style=for-the-badge&amp;logo=openjdk&amp;logoColor=425B72"
+          alt="Java">
 
-        <img src="https://img.shields.io/badge/Python-B9DDF5?style=for-the-badge&logo=python&logoColor=425B72"
-             alt="Python">
+        <img
+          src="https://img.shields.io/badge/Python-B9DDF5?style=for-the-badge&amp;logo=python&amp;logoColor=425B72"
+          alt="Python">
 
-        <img src="https://img.shields.io/badge/HTML5-FFF0B8?style=for-the-badge&logo=html5&logoColor=425B72"
-             alt="HTML5">
+        <img
+          src="https://img.shields.io/badge/HTML5-FFF0B8?style=for-the-badge&amp;logo=html5&amp;logoColor=425B72"
+          alt="HTML5">
 
       </div>
+
     </section>
 
     <!-- SCHOOL ACTIVITIES -->
+
     <section class="panel">
-      <h2>📂 School Activities</h2>
+
+      <h2>Activities and Projects</h2>
+
+      <!-- MIDTERMS -->
 
       <details>
+
         <summary>📁 Midterm Lab Tasks</summary>
 
-        <table>
-          <tr>
-            <th>Activity</th>
-            <th>Description</th>
-            <th>Link</th>
-          </tr>
+        <div class="table-wrap">
 
-          <tr>
-            <td>Lab Task 01</td>
-            <td>Description</td>
-            <td><a href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask1_Miranda.pdf">View</a></td>
-          </tr>
+          <table>
 
-          <tr>
-            <td>Lab Task 02</td>
-            <td>Description</td>
-            <td><a href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask2_Miranda.pdf">View</a></td>
-          </tr>
+            <tr>
+              <th>Activity</th>
+              <th>Description</th>
+              <th>Link</th>
+            </tr>
 
-          <tr>
-            <td>Lab Task 03</td>
-            <td>Description</td>
-            <td><a href="#">Unavailable</a></td>
-          </tr>
-        </table>
+            <tr>
+              <td>Lab Task 01</td>
+              <td>2D Array</td>
+              <td>
+                <a
+                  href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask1_Miranda.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Lab Task 02</td>
+              <td>3D Array</td>
+              <td>
+                <a
+                  href="https://github.com/gellie-miranda/GJava_Projects/blob/9f2f3091a076524bf1cce9cfcabddb0d61d5630c/MIDTERMS/LabTask2_Miranda.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Lab Task 03</td>
+              <td>None</td>
+              <td>
+                <span class="unavailable">
+                  Unavailable
+                </span>
+              </td>
+            </tr>
+
+          </table>
+
+        </div>
+
       </details>
 
+      <!-- FINALS -->
+
       <details>
+
         <summary>📁 Final Lab Tasks</summary>
 
-        <table>
-          <tr>
-            <th>Activity</th>
-            <th>Description</th>
-            <th>Link</th>
-          </tr>
+        <div class="table-wrap">
 
-          <tr>
-            <td>Final Task 01</td>
-            <td>Description</td>
-            <td><a href="#">Unavailable</a></td>
-          </tr>
+          <table>
 
-          <tr>
-            <td>Final Task 02</td>
-            <td>Description</td>
-            <td><a href="#">View</a></td>
-          </tr>
-        </table>
+            <tr>
+              <th>Activity</th>
+              <th>Description</th>
+              <th>Link</th>
+            </tr>
+
+            <tr>
+              <td>Final Task 01</td>
+              <td>Description</td>
+              <td>
+                <span class="unavailable">
+                  Unavailable
+                </span>
+              </td>
+            </tr>
+
+          </table>
+
+        </div>
+
       </details>
 
+      <!-- PERSONAL PROJECTS -->
+
       <details>
+
         <summary>📁 Personal Projects</summary>
 
         <p>
           My future creative and programming
           projects will appear here!
         </p>
+
       </details>
+
     </section>
 
-    <!-- CONNECT -->
-    <section class="panel" style="text-align:center;">
+    <!-- LET'S CONNECT -->
+
+    <section class="panel connect">
+
       <h2>💌 Let's Connect!</h2>
 
       <p>
@@ -399,32 +610,45 @@
       <div class="socials">
 
         <a href="mailto:gellaine.miranda@gmail.com">
-          <img src="https://img.shields.io/badge/Email-FFF0B8?style=for-the-badge&logo=gmail&logoColor=425B72"
-               alt="Email">
+          <img
+            src="https://img.shields.io/badge/Email-FFF0B8?style=for-the-badge&amp;logo=gmail&amp;logoColor=425B72"
+            alt="Email">
         </a>
 
-        <a href="https://github.com/gellie-miranda">
-          <img src="https://img.shields.io/badge/GitHub-B9DDF5?style=for-the-badge&logo=github&logoColor=425B72"
-               alt="GitHub">
+        <a href="https://github.com/gellie-miranda"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/GitHub-B9DDF5?style=for-the-badge&amp;logo=github&amp;logoColor=425B72"
+            alt="GitHub">
         </a>
 
-        <a href="https://www.facebook.com/gellaine.miranda.5/">
-          <img src="https://img.shields.io/badge/Facebook-FFF0B8?style=for-the-badge&logo=facebook&logoColor=425B72"
-               alt="Facebook">
+        <a href="https://www.facebook.com/gellaine.miranda.5/"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/Facebook-FFF0B8?style=for-the-badge&amp;logo=facebook&amp;logoColor=425B72"
+            alt="Facebook">
         </a>
 
-        <a href="https://www.instagram.com/gellifish___/">
-          <img src="https://img.shields.io/badge/Instagram-B9DDF5?style=for-the-badge&logo=instagram&logoColor=425B72"
-               alt="Instagram">
+        <a href="https://www.instagram.com/gellifish___/"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/Instagram-B9DDF5?style=for-the-badge&amp;logo=instagram&amp;logoColor=425B72"
+            alt="Instagram">
         </a>
 
       </div>
+
     </section>
 
   </main>
 
   <!-- FOOTER -->
+
   <footer>
+
     <h3>🖥️ gellie.exe is still running...</h3>
 
     <p>Loading new skills and experiences...</p>
@@ -436,6 +660,7 @@
     <small>
       ♡ Made with curiosity and a little bit of code.
     </small>
+
   </footer>
 
 </body>
