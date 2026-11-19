@@ -357,7 +357,7 @@
       overflow: hidden;
     }
 
-    .
+  
 .progress-fill {
   width: 0%;
   height: 100%;
@@ -365,11 +365,27 @@
   animation: loading 4s ease-in-out infinite;
 }
 
-.progress-fill {
-  width: 65%;
-  height: 100%;
-  background: #B9DDF5;
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+
+  70% {
+    width: 90%;
+  }
+
+  100% {
+    width: 0%;
+  }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-fill {
+    animation: none;
+    width: 65%;
+  }
+}
+
 
 
     /* MOBILE RESPONSIVENESS */
@@ -418,7 +434,7 @@
 
   </header>
 
-  <main class="container">
+    <section class="panel about-me">
 
       <h2>ABOUT ME</h2>
 
