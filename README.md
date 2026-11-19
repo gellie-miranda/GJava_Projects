@@ -54,36 +54,43 @@
 
 <br>
 
-| Activity | Description | Link |
-|---|---|---|
-| MIDTERMS    | Folder   |  <a href="https://github.com/gellie-miranda/GJava_Projects/tree/f387d65ccdf99e3cbf8cd730ceb14c3ea37b09ff/MIDTERMS">  <img src="https://img.shields.io/badge/View-FFF0B8?style=for-the-badge&color=FFF0B8&labelColor=FFF0B8" alt="View"> </a> |
-| Lab Task 01 | 2D Array, 3x3 Matrix | <a href ="https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf">  <img src="https://img.shields.io/badge/View-FFF0B8?style=for-the-badge&color=FFF0B8&labelColor=FFF0B8" alt="View"> </a> |
-| Lab Task 02 | 3d Array | <a href ="https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf">  <img src="https://img.shields.io/badge/View-FFF0B8?style=for-the-badge&color=FFF0B8&labelColor=FFF0B8" alt="View"> </a> |
+### 📂 MIDTERMS
+<a href="https://github.com/gellie-miranda/GJava_Projects/tree/f387d65ccdf99e3cbf8cd730ceb14c3ea37b09ff/MIDTERMS">
+  <img src="https://img.shields.io/badge/View%20Folder-FFF0B8?style=for-the-badge" alt="View Folder">
+</a>
 
+### 📝 Lab Task 01
+<a href="https://github.com/gellie-miranda/GJava_Projects/blob/870fec6c5f0685f055aee5f2ce3241f565d7367e/MIDTERMS/LabTask1_Miranda.pdf">
+  <img src="https://img.shields.io/badge/View%20PDF-B9DDF5?style=for-the-badge" alt="View PDF">
+</a>
+
+### 📝 Lab Task 02
+<a href="https://github.com/gellie-miranda/GJava_Projects/blob/ddaec893159ba6d14568e78e377e21c535734822/MIDTERMS/LabTask2_Miranda.pdf">
+  <img src="https://img.shields.io/badge/View%20PDF-FFF0B8?style=for-the-badge" alt="View PDF">
+</a>
 
 </details>
 
 <details>
 <summary>🔒 Final Lab Tasks</summary>
 
-<br>
-
-| Activity | Description | Link |
-|---|---|---|
-| Unavailable |
+### 📂 FINALS
+<a>
+  <img src="https://img.shields.io/badge/Not%20Available-FFF0B8?style=for-the-badge" alt="Unavailable">
+</a>
 
 </details>
 
 <details>
 <summary>🔒 Personal Projects</summary>
 
-<br>
-
-| Project | Description | Status |
-|---|---|---|
-| Project 01 | Personal experiment | In Progress |
+### 📂 PERSONAL PROJECTS
+<a>
+  <img src="https://img.shields.io/badge/Not%20Available-FFF0B8?style=for-the-badge" alt="Unavailable">
+</a>
 
 </details>
+
 
 
 ---
